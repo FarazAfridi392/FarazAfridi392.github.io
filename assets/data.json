@@ -1,10 +1,8 @@
 {
-    "name": "Muhammad Hamza",
-    "email": "hamza@mhmz.dev",
+    "name": "Faraz Afridi",
+    "email": "farazafridi392@gmail.com",
     "subtitles": [
-        "Flutter Developer",
-        "Technical Writer",
-        "UI/UX Designer"
+        "Senior Flutter Developer"
     ],
     "blackWhitePhotoURL": "https://drive.google.com/uc?export=view&id=1np1Or8kvpEmH5ghkFN5GJGqU8VAQRUCH",
     "coloredPhotoURL": "https://drive.google.com/uc?export=view&id=1wE4FRqC9bRrzOqS64b48--ykLK1yklTJ",
@@ -34,7 +32,7 @@
             "url": "https://mhamzadev.medium.com/"
         }
     ],
-    "aboutMeHeadline": "I'm Muhammad Hamza, a Flutter developer, Technical Writer and UI/UX Designer.",
+    "aboutMeHeadline": "I'm Faraz, a Senior Flutter developer, Technical Writer and UI/UX Designer.",
     "aboueMeDetails": "I'm a Final Year Computer Science student enrolled in COMSATS University, Islamabad. I have been developing mobile apps for over 2 years now. I have worked in teams for various startups and helped them in launching their prototypes and got valuable learning experience. I'm a former Google DSC lead and also CEO/Co-Founder Flutter Islamabad, Pakistan.",
     "technologies": [
         "Flutter",
@@ -72,7 +70,7 @@
         }
     ],
     "hireMe": {
-        "whatsapp": "923460159889"
+        "whatsapp": "Faraz"
     },
     "projects": [
         {
