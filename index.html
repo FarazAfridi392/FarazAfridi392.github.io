@@ -59,13 +59,7 @@
         }
       }
     </script>
-  <script>
-    // The value below is injected by flutter build, do not touch.
-    const serviceWorkerVersion = "4119369904";
-  </script>
   <!-- This script adds the flutter initialization JS code -->
-  <script src="https://unpkg.com/canvaskit-wasm@0.37.1/bin/canvaskit.js"></script>
-  <link rel="preload" href="https://unpkg.com/canvaskit-wasm@0.37.1/bin/canvaskit.wasm" as="fetch" crossOrigin="anonymous">
   <script src="flutter.js" defer></script>
   <style>
     html{
@@ -133,11 +127,14 @@
       element.addEventListener('animationiteration', listener, false);
 
     window.addEventListener('load', function(ev) {
+      // Injected by `flutter build`/`flutter run`; sets _flutter.buildConfig.
+      if (!window._flutter) {
+  window._flutter = {};
+}
+_flutter.buildConfig = {"engineRevision":"a10d8ac38de835021c8d2f920dbf50a920ccc030","builds":[{"compileTarget":"dart2js","renderer":"canvaskit","mainJsPath":"main.dart.js"},{}]};
+
       // Download main.dart.js
-      _flutter.loader.loadEntrypoint({
-        serviceWorker: {
-          serviceWorkerVersion: serviceWorkerVersion,
-        },
+      _flutter.loader.load({
         onEntrypointLoaded: function(engineInitializer) {
           engineInitializer.initializeEngine().then(function(appRunner) {
               const loader = document.getElementById("loader");
