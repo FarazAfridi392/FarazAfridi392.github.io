@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://farazafridi392.github.io/sitemap.xml
+Host: https://farazafridi392.github.io
